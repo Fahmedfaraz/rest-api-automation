@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test">
+        <methods>
+          <include name="getweatherDetails_ByZipCode" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

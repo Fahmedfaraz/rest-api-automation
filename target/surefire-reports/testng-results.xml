@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-22T02:21:50Z" name="Suite" finished-at="2021-05-22T02:21:53Z" duration-ms="3714">
+    <groups>
+    </groups>
+    <test started-at="2021-05-22T02:21:50Z" name="Test" finished-at="2021-05-22T02:21:53Z" duration-ms="3714">
+      <class name="RestAPIPracticePackage.RestApi_Learning.GetCityName_test">
+        <test-method signature="getweatherByCityName()[pri:0, instance:RestAPIPracticePackage.RestApi_Learning.GetCityName_test@37271612]" started-at="2021-05-22T02:21:53Z" name="getweatherByCityName" finished-at="2021-05-22T02:21:53Z" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherByCityName -->
+      </class> <!-- RestAPIPracticePackage.RestApi_Learning.GetCityName_test -->
+      <class name="RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test">
+        <test-method signature="getweatherDetails_ByZipCode(java.lang.String, java.lang.String)[pri:0, instance:RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test@3af9c5b7]" started-at="2021-05-22T02:21:52Z" name="getweatherDetails_ByZipCode" data-provider="Zipcode_Data" finished-at="2021-05-22T02:21:53Z" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[94040]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mountain View]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherDetails_ByZipCode -->
+        <test-method signature="getweatherDetails_ByZipCode(java.lang.String, java.lang.String)[pri:0, instance:RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test@3af9c5b7]" started-at="2021-05-22T02:21:53Z" name="getweatherDetails_ByZipCode" data-provider="Zipcode_Data" finished-at="2021-05-22T02:21:53Z" duration-ms="374" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[City Name expected:<[New York]> but was:<[Tizi Ouzou]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: City Name expected:<[New York]> but was:<[Tizi Ouzou]>
+at junit.framework.Assert.assertEquals(Assert.java:85)
+at RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test.getweatherDetails_ByZipCode(GetByZipCode_test.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherDetails_ByZipCode -->
+      </class> <!-- RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test -->
+      <class name="RestAPIPracticePackage.RestApi_Learning.GetByLatLon_test">
+        <test-method signature="getweatherDetails_ByCoordinates()[pri:0, instance:RestAPIPracticePackage.RestApi_Learning.GetByLatLon_test@10aa41f2]" started-at="2021-05-22T02:21:50Z" name="getweatherDetails_ByCoordinates" finished-at="2021-05-22T02:21:52Z" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getweatherDetails_ByCoordinates -->
+      </class> <!-- RestAPIPracticePackage.RestApi_Learning.GetByLatLon_test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

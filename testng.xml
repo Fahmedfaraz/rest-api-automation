@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="RestAPIPracticePackage.RestApi_Learning.GetByLatLon_test"/>
+      <class name="RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test"/>
+      <class name="RestAPIPracticePackage.RestApi_Learning.GetCityName_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

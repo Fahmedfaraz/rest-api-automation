@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.391" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\faraz\eclipse-workspace\RestApi-Learning\target\test-classes;C:\Users\faraz\eclipse-workspace\RestApi-Learning\target\classes;C:\Users\faraz\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\faraz\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\faraz\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\faraz\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\faraz\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\faraz\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\faraz\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\faraz\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\faraz\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\faraz\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\faraz\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\faraz\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\faraz\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\faraz\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\faraz\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\faraz\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\faraz\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\faraz\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\faraz\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\faraz\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\faraz\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\faraz\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\faraz\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\faraz\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\faraz\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\faraz\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\faraz\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\faraz\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\faraz\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\faraz\AppData\Local\Temp\surefire11959569698024674079\surefirebooter15270232762144355237.jar C:\Users\faraz\AppData\Local\Temp\surefire11959569698024674079 2021-05-21T22-21-47_306-jvmRun1 surefire8678500408375646917tmp surefire_04581278583460614371tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\faraz\eclipse-workspace\RestApi-Learning\target\test-classes;C:\Users\faraz\eclipse-workspace\RestApi-Learning\target\classes;C:\Users\faraz\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\faraz\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\faraz\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\faraz\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\faraz\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\faraz\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\faraz\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\faraz\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\faraz\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\faraz\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\faraz\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\faraz\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\faraz\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\faraz\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\faraz\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\faraz\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\faraz\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\faraz\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\faraz\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\faraz\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\faraz\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\faraz\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\faraz\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\faraz\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\faraz\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\faraz\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\faraz\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\faraz\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\faraz\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\faraz\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\faraz"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\faraz\eclipse-workspace\RestApi-Learning"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\faraz\AppData\Local\Temp\surefire11959569698024674079\surefirebooter15270232762144355237.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="user.name" value="faraz"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="C:\Users\faraz\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\faraz\AppData\Local\Temp\"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="user.dir" value="C:\Users\faraz\eclipse-workspace\RestApi-Learning"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-10.0.1\bin;C:\development\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\FE Development\;&quot;C:\Users\faraz\AppData\Local\Microsoft\WindowsApps;&quot;;C:\Program Files\Mozilla Firefox;;C:\Users\faraz\AppData\Local\Microsoft\WindowsApps;C:\Users\faraz\AppData\Roaming\npm;C:\FE Development\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="getweatherDetails_ByCoordinates" classname="RestAPIPracticePackage.RestApi_Learning.GetByLatLon_test" time="2.764">
+    <system-out><![CDATA[Response Body is: {"coord":{"lon":-74.006,"lat":40.7143},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":292.71,"feels_like":292.24,"temp_min":289.02,"temp_max":296.47,"pressure":1028,"humidity":58},"visibility":10000,"wind":{"speed":0.45,"deg":119,"gust":0.89},"clouds":{"all":90},"dt":1621649843,"sys":{"type":2,"id":2039034,"country":"US","sunrise":1621589623,"sunset":1621642311},"timezone":-14400,"id":5128581,"name":"New York","cod":200}
+City_Name: New York
+Latitude: 40.7143
+Longitude: -74.006
+]]></system-out>
+  </testcase>
+  <testcase name="getweatherDetails_ByZipCode[94040, Mountain View](1)" classname="RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test" time="0.199">
+    <system-out><![CDATA[Response Body is: {"coord":{"lon":-122.0832,"lat":37.3894},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":289.03,"feels_like":287.98,"temp_min":284.82,"temp_max":293.99,"pressure":1014,"humidity":50},"visibility":10000,"wind":{"speed":4.02,"deg":234,"gust":4.92},"clouds":{"all":20},"dt":1621649936,"sys":{"type":2,"id":2010364,"country":"US","sunrise":1621601687,"sunset":1621653326},"timezone":-25200,"id":5375480,"name":"Mountain View","cod":200}
+ZipCode : 94040
+CityName: Mountain View
+]]></system-out>
+  </testcase>
+  <testcase name="getweatherDetails_ByZipCode[10007, New York](2)" classname="RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test" time="0.38">
+    <failure message="City Name expected:&lt;[New York]&gt; but was:&lt;[Tizi Ouzou]&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: City Name expected:<[New York]> but was:<[Tizi Ouzou]>
+	at RestAPIPracticePackage.RestApi_Learning.GetByZipCode_test.getweatherDetails_ByZipCode(GetByZipCode_test.java:39)
+]]></failure>
+    <system-out><![CDATA[Response Body is: {"coord":{"lon":3.8344,"lat":36.3516},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04n"}],"base":"stations","main":{"temp":288.76,"feels_like":287.42,"temp_min":288.76,"temp_max":288.76,"pressure":1013,"humidity":40,"sea_level":1013,"grnd_level":952},"visibility":10000,"wind":{"speed":3.99,"deg":159,"gust":5.81},"clouds":{"all":96},"dt":1621650113,"sys":{"type":1,"id":1060,"country":"DZ","sunrise":1621657997,"sunset":1621709382},"timezone":3600,"id":2508268,"name":"Tizi Ouzou","cod":200}
+ZipCode : 10007
+CityName: Tizi Ouzou
+]]></system-out>
+  </testcase>
+  <testcase name="getweatherByCityName" classname="RestAPIPracticePackage.RestApi_Learning.GetCityName_test" time="0.344">
+    <system-out><![CDATA[Response Body is: {"coord":{"lon":-74.9227,"lat":40.1745},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":294.07,"feels_like":293.65,"temp_min":289.97,"temp_max":296.49,"pressure":1028,"humidity":55},"visibility":10000,"wind":{"speed":0.45,"deg":266,"gust":1.34},"clouds":{"all":1},"dt":1621650113,"sys":{"type":2,"id":2010159,"country":"US","sunrise":1621589933,"sunset":1621642441},"timezone":-14400,"id":5197140,"name":"Langhorne","cod":200}
+200
+CityName: Langhorne
+]]></system-out>
+  </testcase>
+</testsuite>
