@@ -3,13 +3,13 @@ Developed a simple framework which should support the development of automation 
 This project is an example of API test for a weather application (URL: https://api.openweathermap.org/data/2.5/weather) using Rest Assured and TestNG.
 
 Tools/Libraries Used:
-1- Java
-2- Rest Assured
-3- TestNG
-4- Maven
+1- Java 1.8 or above
+2- Maven 
+3- TestNG (Maven will take care of this)
+4- Rest Assured (Maven will take care of this)
 
 Steps To Start:
-1- Colone/ Download the project into your local machine.
+1- Clone/ Download the project into your local machine.
 2- Open the command prompt and navigate to project location.
 3- Execute the following Maven commands:
 	-mvn clean--To clean the maven repo
